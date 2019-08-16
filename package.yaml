@@ -1,0 +1,25 @@
+name:                trzysta
+github:              majkrzak/trzysta
+license:             ISC
+author:              "Piotr Majkrzak"
+
+dependencies:
+  - base
+  - warp
+  - wai
+  - http-types
+
+#ghc-options: -Wall -O2 -static
+#cc-options: -static
+#ld-options: -static
+
+default-extensions:
+  - DuplicateRecordFields
+  - TypeSynonymInstances
+  - FlexibleInstances
+  - RecordWildCards
+  - OverloadedStrings
+  - LambdaCase
+
+executable:
+  main: Trzysta.hs
