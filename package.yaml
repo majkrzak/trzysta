@@ -9,9 +9,9 @@ dependencies:
   - wai
   - http-types
 
-#ghc-options: -Wall -O2 -static
-#cc-options: -static
-#ld-options: -static
+ghc-options: -O2 -static
+cc-options: -static
+ld-options: -static
 
 default-extensions:
   - DuplicateRecordFields

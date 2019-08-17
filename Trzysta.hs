@@ -1,4 +1,4 @@
-import Network.Wai (responseLBS, Application, remoteHost, requestHeaderHost, rawPathInfo, rawQueryString)
+import Network.Wai (responseLBS, Application, requestHeaderHost, rawPathInfo, rawQueryString)
 import Network.Wai.Handler.Warp (run)
 import Network.HTTP.Types (movedPermanently301)
 import Network.HTTP.Types.Header (hLocation)
