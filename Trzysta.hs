@@ -8,8 +8,7 @@ main :: IO()
 main = run 8080 app
 
 app :: Application
-app req respond = do
-  print req
+app req respond =
   respond $
     responseLBS
       movedPermanently301
